@@ -1,0 +1,22 @@
+{
+  "name": "socket-chat-app",
+  "version": "1.0.0",
+  "description": "Simple chat application build using socket.io, express.js and mongodb",
+  "main": "server.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "author": "Plash Jindal",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.13",
+    "socket.io": "^2.1.1"
+  },
+  "devDependencies": {
+    "jasmine": "^3.2.0",
+    "request": "^2.88.0"
+  }
+}
