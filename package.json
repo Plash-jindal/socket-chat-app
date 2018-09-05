@@ -1,9 +1,11 @@
 {
   "name": "socket-chat-app",
   "version": "1.0.0",
-  "description": "Simple chat application build using socket.io, express.js and mongodb",
+  "description":
+    "Simple chat application build using socket.io, express.js and mongodb",
   "main": "server.js",
   "scripts": {
+    "start": "nodemon server.js",
     "test": "jasmine"
   },
   "author": "Plash Jindal",
